@@ -13,3 +13,36 @@ Esse processo continua até que nenhuma troca precise ser feita, o que significa
 No pior caso, sua complexidade é **O(n²)**, o que o torna pouco eficiente para listas grandes.
 
 Se a lista já estiver ordenada (e houver uma verificação para isso), ele pode chegar a **O(n)** no melhor caso.
+
+## Testar algoritmo
+
+Para testar o algoritmo, você pode:
+
+### 1️⃣ Usar um simulador online
+
+Acesse um ambiente online de JavaScript como o  
+[RunJS Play](https://runjs.app/play)  
+e cole o código para executar diretamente no navegador.
+
+### 2️⃣ Executar com Node.js
+
+Se preferir rodar localmente é necessario clonar o repositório e ter o **Node.js** e **Git** instalado.
+
+```bash
+git clone https://github.com/AlanTachini/Algoritimo-de-ordenacao-Bubble-Sort.git
+```
+
+```bash
+cd Algoritimo-de-ordenacao-Bubble-Sort
+```
+
+Depois para acessar o projeto no Visual Studio Code use:
+
+```bash
+code .
+```
+
+Depois, no terminal, execute (é possível rodar sem abrir o vscode):
+
+```bash
+node .\bubblesort.js
